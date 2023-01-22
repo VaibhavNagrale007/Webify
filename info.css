@@ -1,0 +1,65 @@
+body{
+    margin: 0px;
+    font-family: sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    direction: ltr;
+    font-size: 1.4rem;
+    display: block;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin: 1rem;
+}
+img{
+    border: 10px solid rgb(144, 144, 144);
+    padding: 15px;
+    margin: 1rem;
+}
+.our-story-card {
+    background: transparent;
+    border-bottom: 8px solid #222;
+    color: white;
+    margin:0 auto;
+    padding: 3rem 45px;
+    position: relative;
+}
+.our-story-card-background {
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: -100px;
+    z-index: 0;
+}
+.concord-img-wrapper {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    border: 0;
+    max-width: 100%;
+}
+.concord-img {
+    height: 100%;
+    object-fit: cover;
+    transform: none;
+    width: 100%;
+    opacity: 0.9;
+}
+.concord-img-gradient {
+    background: rgba(0,0,0,.4);
+    background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 45%,transparent 45%,rgba(0,0,0,.8));
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}

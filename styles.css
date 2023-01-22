@@ -1,0 +1,149 @@
+body{
+    margin: 0px;
+    font-family: sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    direction: ltr;
+    font-size: 2rem;
+    display: block;
+}
+a{
+    text-decoration: solid;
+    color: white;
+}
+h1{
+  margin-top: 0px;
+  font-size: 6rem!important;
+}
+img{
+    padding: 0.6% 0;
+}
+.card-img-top{
+    border: 10px solid rgb(144, 144, 144);
+    padding: 15px;
+    margin: 35px;
+}
+.our-story-card-title {
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+}
+.our-story-card-text {
+    font-size: 2rem;
+    font-weight: 400;
+}
+.our-story-card {
+    background: transparent;
+    border-bottom: 8px solid #222;
+    color: white;
+    margin:0 auto;
+    padding: 25rem 45px;
+    position: relative;
+}
+.animation-card .animation-card-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1100px;
+}
+.our-story-card-animation {
+    height: 100%;
+    left: 50%;
+    max-height: 54%;
+    max-width: 73%;
+    position: absolute;
+    top: 46%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+.animation-card .our-story-card-img-container {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 1 auto;
+    height: 100%;
+    margin-top: 1em;
+    max-width: 600px;
+    width: 100%;
+}
+.animation-card .our-story-card-text {
+    flex: 0 1 auto;
+    height: 100%;
+    padding: 0 3rem 0 0;
+    width: 52%;
+    z-index: 3;
+}
+.animation-card .our-story-card-animation-container {
+    overflow: hidden;
+    position: relative;
+    margin: -10% 0 0;
+}
+.footer-card {
+    margin: 2% auto;
+    max-width: 1000px;
+    border-bottom: none;
+    padding: 0 auto;
+    font-size: 16px;
+}
+.site-footer-wrapper {
+    color: #737373;
+    font-size: 1em;
+    margin-top: 0px;
+    min-width: 190px;
+    padding-bottom: 20px;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.site-footer {
+    margin: 0 auto;
+    padding-top: 0px;
+    width: 90%;
+}
+.footer-link-item {
+    box-sizing: border-box;
+    display: inline-block;
+    margin-bottom: 16px;
+    min-width: 100px;
+    padding: 0 12px 0 0;
+    vertical-align: top;
+    width: 25%;
+}
+.our-story-card-background {
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: -100px;
+    z-index: 0;
+}
+.concord-img-wrapper {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    border: 0;
+    max-width: 100%;
+}
+.concord-img {
+    height: 100%;
+    object-fit: cover;
+    transform: none;
+    width: 100%;
+    opacity: 0.9;
+}
+.concord-img-gradient {
+    background: rgba(0,0,0,.4);
+    background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 45%,transparent 45%,rgba(0,0,0,.8));
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
