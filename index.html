@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
     <link rel="stylesheet" href="styles.css">
+
+	<script src="https://unpkg.com/scrollreveal@4"></script>
+	<script>
+		ScrollReveal({ duration: 2500 })
+	</script>
 </head>
 <!-- This is just a basic code,
     You are allowed to -
@@ -22,7 +27,7 @@
             <div class="concord-img-gradient"></div>
         </div>
     </div>
-    <center class="our-story-card">
+    <center class="our-story-card headline">
         <h1 class="our-story-card-title">Binge watch</h1>
         <p >INTRODUCTION------------------</p>
     </center>
@@ -33,7 +38,7 @@
                     <div class="concord-img-gradient"></div>
                 </div>
             </div>
-            <div class="animation-card-container">
+            <div class="animation-card-container headline">
                 <div class="our-story-card-img-container">
                     <div class="our-story-card-animation-container">
                         <a href="Horror\horror.html" target="_blank">
@@ -41,7 +46,10 @@
                         </a>
                     </div>
                 </div>
-                <p class="our-story-card-text">Horror</p>
+                <a href="Horror\horror.html" target="_blank" class="our-story-card-text">
+                    <p class="our-story-card-text" style="font-size: 4rem; font-weight: bolder;">Horror</p>
+                </a>
+                
             </div>
         </div>
 
@@ -52,8 +60,11 @@
                     <div class="concord-img-gradient"></div>
                 </div>
             </div>
-            <div class="animation-card-container">
-                <p class="our-story-card-text">Romantic-Comedy</p>
+            <div class="animation-card-container headline">
+                <a href="Romantic-comedy/romcom1.html" target="_blank" class="our-story-card-text">
+                    <p class="our-story-card-text" style="font-size: 4rem; font-weight: bolder;">Romantic-Comedy</p>
+                </a>
+                
                 <div class="our-story-card-img-container">
                     <div class="our-story-card-animation-container">
                         <a href="Romantic-comedy/romcom1.html" target="_blank">
@@ -71,7 +82,7 @@
                     <div class="concord-img-gradient"></div>
                 </div>
             </div>
-            <div class="animation-card-container">
+            <div class="animation-card-container headline">
                 <div class="our-story-card-img-container">
                     <div class="our-story-card-animation-container">
                         <a href="Thrilling-Mysteries/design.html" target="_blank">
@@ -79,7 +90,10 @@
                         </a>
                     </div>
                 </div>
-                <p class="our-story-card-text">Mystery</p>
+                <a href="Thrilling-Mysteries/design.html" target="_blank" class="our-story-card-text">
+                    <p class="our-story-card-text" style="font-size: 4rem; font-weight: bolder;">Mystery</p>
+                </a>
+                
             </div>
         </div>
 
@@ -90,8 +104,11 @@
                     <div class="concord-img-gradient"></div>
                 </div>
             </div>
-            <div class="animation-card-container">
-                <p class="our-story-card-text">Anime</p>
+            <div class="animation-card-container headline">
+                <a href="Animation/animated.html" target="_blank" class="our-story-card-text">
+                    <p class="our-story-card-text" style="font-size: 4rem; font-weight: bolder;">Anime</p>
+                </a>
+                
                 <div class="our-story-card-img-container">
                     <div class="our-story-card-animation-container">
                         <a href="Animation/animated.html" target="_blank">
@@ -109,7 +126,7 @@
                     <div class="concord-img-gradient"></div>
                 </div>
             </div>
-            <div class="animation-card-container">
+            <div class="animation-card-container headline">
                 <div class="our-story-card-img-container">
                     <div class="our-story-card-animation-container">
                         <a href="Action/action_movies.html" target="_blank">
@@ -117,7 +134,10 @@
                         </a>
                     </div>
                 </div>
-                <p class="our-story-card-text">Action</p>
+                <a href="Action/action_movies.html" target="_blank" class="our-story-card-text">
+                    <p class="our-story-card-text" style="font-size: 4rem; font-weight: bolder;">Action</p>
+                </a>
+                
             </div>
         </div>
 
@@ -133,5 +153,9 @@
         </div>
         
     </footer>
+
+    <script>
+		ScrollReveal().reveal('.headline');
+	</script>
 </body>
 </html>
